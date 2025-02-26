@@ -528,7 +528,7 @@ const HomeContent = () => {
 
         // Resubmit the last user message
         await reload();
-    }, [messages, append, setMessages, status]);
+    }, [messages,setMessages, status, reload]);
 
     // Add this type at the top with other interfaces
     type MessagePart = TextUIPart | ReasoningUIPart | ToolInvocationUIPart | SourceUIPart;
