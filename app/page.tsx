@@ -74,7 +74,7 @@ import type { StreamUpdate } from '@/components/reason-search';
 import {LoadingFallback,SearchLoadingState } from '@/components/Loading';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import ToolInvocationListView from '@/components/ToolInvocationListView';
-export const maxDuration = 120;
+export const maxDuration = 300;
 interface Attachment {
     name: string;
     contentType: string;
